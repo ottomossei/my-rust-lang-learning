@@ -1,1 +1,1 @@
-# my_studey_rust
+## Rust-lang-study

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  rust-dev:
+    image: rust:1.57
+    container_name: rust_dev
+    volumes:
+      - ./workplace:/root/workplace
+    environment:
+      USER: ottomossei
+    tty: true
+
