@@ -4,9 +4,11 @@ services:
   rust-dev:
     image: rust:1.57
     container_name: rust_dev
+    working_dir: '/root/workplace'
     volumes:
       - ./workplace:/root/workplace
     environment:
       USER: ottomossei
     tty: true
+    stdin_open: true
 
