@@ -6,13 +6,22 @@ docker operation
 docker-compose up -d --build
 docker-compose down
 # attach
-docker exec -it rust_dev bash
+# docker exec -it rust_dev bash
 ```
 
 create new project
 ```bashcd
 # create new project
 cargo new ${PROJECT_NAME}
+# compile
+cargo build
+# run
+cargo run
+
+```
+
+unit built & compile
+```bashcd
 # compile
 rustc src/main.rs
 # run
