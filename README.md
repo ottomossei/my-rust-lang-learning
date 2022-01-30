@@ -6,7 +6,7 @@ docker operation
 docker-compose up -d --build
 docker-compose down
 # attach
-# docker exec -it rust_dev bash
+docker exec -it rust_dev bash
 ```
 
 create new project
