@@ -10,18 +10,17 @@ docker-compose down
 ```
 
 create new project
-```bashcd
+```bash
 # create new project
 cargo new ${PROJECT_NAME}
 # compile
 cargo build
 # run
 cargo run
-
 ```
 
 unit built & compile
-```bashcd
+```bash
 # compile
 rustc src/main.rs
 # run
