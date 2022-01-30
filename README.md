@@ -19,7 +19,7 @@ cargo build
 cargo run
 ```
 
-unit built & compile
+unit build & compile
 ```bash
 # compile
 rustc src/main.rs
