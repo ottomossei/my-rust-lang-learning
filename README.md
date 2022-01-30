@@ -1,4 +1,4 @@
-## Rust-lang-study
+## Rust Environment
 
 docker operation
 ```bash
